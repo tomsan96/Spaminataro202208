@@ -1,0 +1,12 @@
+//
+//  Karadance.debug.xcconfig
+//  Karadance
+//
+//  Created by Naoki Muramoto on 2022/06/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Pods/Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208.debug.xcconfig"
+#include "Spaminataro202208.xcconfig"

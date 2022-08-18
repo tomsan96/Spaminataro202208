@@ -1,0 +1,27 @@
+targetTemplates:
+  MainApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: ${target_name}
+        excludes:
+          - "**/*.yml"
+          - "**/*.md"
+          - ".gitkeep"
+          - "**/*.rest"
+    settings:
+      base:
+        INFOPLIST_FILE: "${target_name}/Info.plist"
+    postCompileScripts:
+      # - name: "[SwiftLint] Run Script"
+      #   script: "sh ./lint.sh"
+      # - name: "[LicensePlist] Run Script"
+      #   script: "sh ./licensePlist.sh"
+
+  UnitTest:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: ${target_name}
+        excludes:
+          - "**/*.rest"

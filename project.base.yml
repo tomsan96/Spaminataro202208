@@ -1,0 +1,5 @@
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+    GENERATE_INFOPLIST_FILE: true
+    EXCLUDED_ARCHS[sdk=iphonesimulator*]: arm64

@@ -1,0 +1,44 @@
+include:
+  - project.base.yml
+  - project.templates.yml
+
+name: Spaminataro202208
+
+schemes:
+  Spaminataro202208:
+    build:
+      targets:
+        Spaminataro202208: all
+    test:
+      targets:
+        - Spaminataro202208Tests
+
+options:
+  bundleIdPrefix: co.spaminataro
+  # preGenCommand: sh pre.generate.sh
+  # postGenCommand: sh post.generate.sh
+
+targets:
+  Spaminataro202208:
+    templates:
+      - MainApp
+    configFiles:
+      Debug: configs/${target_name}-debug.xcconfig
+      Release: configs/${target_name}-release.xcconfig
+    settings:
+      base:
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        TARGETED_DEVICE_FAMILY: 1
+        PRODUCT_BUNDLE_IDENTIFIER: co.spaminataro.${target_name}
+        INFOPLIST_KEY_UIUserInterfaceStyle: Light
+    info:
+      path: Spaminataro202208/Info.plist
+      properties:
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+
+  Spaminataro202208Tests:
+    templates:
+      - UnitTest
+    dependencies:
+      - target: Spaminataro202208
