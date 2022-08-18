@@ -10,6 +10,7 @@
 		2103EF0CE1A56556457A2E99 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */; };
 		4CE44C154CBC7B53ABC81546 /* Pods_Spaminataro202208Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */; };
 		5CCF6FF23D95F8F3C6B19A46 /* Pods_Spaminataro202208.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */; };
+		887A7EDC28AE78FD00AC4251 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 887A7EDB28AE78FD00AC4251 /* Settings.bundle */; };
 		CB4753F028ADC48400719AE5 /* Spaminataro202208App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4753EF28ADC48400719AE5 /* Spaminataro202208App.swift */; };
 		CB4753F228ADC48400719AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4753F128ADC48400719AE5 /* ContentView.swift */; };
 		CB4753F428ADC48500719AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4753F328ADC48500719AE5 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		39A8A9AB62FC62694A2CA46C /* Pods-Spaminataro202208Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208Tests.release.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208Tests/Pods-Spaminataro202208Tests.release.xcconfig"; sourceTree = "<group>"; };
 		48145D2F7E0997B6D86FAC9E /* Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		887A7EDB28AE78FD00AC4251 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9715090D17041386483B8274 /* Pods-Spaminataro202208Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208Tests.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208Tests/Pods-Spaminataro202208Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F1ED159EFEC5E632BB7D5CF /* Pods-Spaminataro202208.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208.debug.xcconfig"; sourceTree = "<group>"; };
 		C1AD425DF12B96D8C3027359 /* Pods-Spaminataro202208.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208.release.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				CB4753F128ADC48400719AE5 /* ContentView.swift */,
 				CB4753F328ADC48500719AE5 /* Assets.xcassets */,
 				CB4753F528ADC48500719AE5 /* Preview Content */,
+				887A7EDB28AE78FD00AC4251 /* Settings.bundle */,
 			);
 			path = Spaminataro202208;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				CB4753E928ADC48400719AE5 /* Frameworks */,
 				CB4753EA28ADC48400719AE5 /* Resources */,
 				887A7ED928AE778700AC4251 /* Run Swiftlint */,
+				887A7EDA28AE78CE00AC4251 /* Run LicensePlist */,
 			);
 			buildRules = (
 			);
@@ -276,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4753F728ADC48500719AE5 /* Preview Assets.xcassets in Resources */,
+				887A7EDC28AE78FD00AC4251 /* Settings.bundle in Resources */,
 				CB4753F428ADC48500719AE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +363,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if test -d /opt/homebrew/bin; then\n    PATH=/opt/homebrew/bin/:$PATH\nfi\n\nif which swiftlint >/dev/null; then\n    swiftlint --fix\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		887A7EDA28AE78CE00AC4251 /* Run LicensePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run LicensePlist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\n";
 		};
 		F1E1CB30AE8E9B7F6E90EC10 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
