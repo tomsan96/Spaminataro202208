@@ -1,0 +1,10 @@
+//
+//  Karadance.xcconfig
+//  Karadance
+//
+//  Created by Naoki Muramoto on 2022/06/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+OTHER_SWIFT_FLAGS = -D COCOAPODS
