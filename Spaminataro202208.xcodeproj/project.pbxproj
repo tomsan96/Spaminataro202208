@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2103EF0CE1A56556457A2E99 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */; };
+		4CE44C154CBC7B53ABC81546 /* Pods_Spaminataro202208Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */; };
+		5CCF6FF23D95F8F3C6B19A46 /* Pods_Spaminataro202208.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */; };
 		CB4753F028ADC48400719AE5 /* Spaminataro202208App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4753EF28ADC48400719AE5 /* Spaminataro202208App.swift */; };
 		CB4753F228ADC48400719AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4753F128ADC48400719AE5 /* ContentView.swift */; };
 		CB4753F428ADC48500719AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4753F328ADC48500719AE5 /* Assets.xcassets */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C4C8E0EFF1643E0E2FD8A8C /* Pods-Spaminataro202208-Spaminataro202208UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208-Spaminataro202208UITests.release.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests.release.xcconfig"; sourceTree = "<group>"; };
+		39A8A9AB62FC62694A2CA46C /* Pods-Spaminataro202208Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208Tests.release.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208Tests/Pods-Spaminataro202208Tests.release.xcconfig"; sourceTree = "<group>"; };
+		48145D2F7E0997B6D86FAC9E /* Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9715090D17041386483B8274 /* Pods-Spaminataro202208Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208Tests.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208Tests/Pods-Spaminataro202208Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1ED159EFEC5E632BB7D5CF /* Pods-Spaminataro202208.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208.debug.xcconfig"; sourceTree = "<group>"; };
+		C1AD425DF12B96D8C3027359 /* Pods-Spaminataro202208.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208.release.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208.release.xcconfig"; sourceTree = "<group>"; };
 		CB4753EC28ADC48400719AE5 /* Spaminataro202208.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spaminataro202208.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4753EF28ADC48400719AE5 /* Spaminataro202208App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaminataro202208App.swift; sourceTree = "<group>"; };
 		CB4753F128ADC48400719AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		CB47540628ADC48500719AE5 /* Spaminataro202208UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spaminataro202208UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB47540A28ADC48500719AE5 /* Spaminataro202208UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaminataro202208UITests.swift; sourceTree = "<group>"; };
 		CB47540C28ADC48500719AE5 /* Spaminataro202208UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaminataro202208UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208_Spaminataro202208UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCF6FF23D95F8F3C6B19A46 /* Pods_Spaminataro202208.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE44C154CBC7B53ABC81546 /* Pods_Spaminataro202208Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2103EF0CE1A56556457A2E99 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FD5A62D2911FCB2330C61E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F1ED159EFEC5E632BB7D5CF /* Pods-Spaminataro202208.debug.xcconfig */,
+				C1AD425DF12B96D8C3027359 /* Pods-Spaminataro202208.release.xcconfig */,
+				48145D2F7E0997B6D86FAC9E /* Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig */,
+				2C4C8E0EFF1643E0E2FD8A8C /* Pods-Spaminataro202208-Spaminataro202208UITests.release.xcconfig */,
+				9715090D17041386483B8274 /* Pods-Spaminataro202208Tests.debug.xcconfig */,
+				39A8A9AB62FC62694A2CA46C /* Pods-Spaminataro202208Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB4753E328ADC48400719AE5 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +107,8 @@
 				CB4753FF28ADC48500719AE5 /* Spaminataro202208Tests */,
 				CB47540928ADC48500719AE5 /* Spaminataro202208UITests */,
 				CB4753ED28ADC48400719AE5 /* Products */,
+				8FD5A62D2911FCB2330C61E8 /* Pods */,
+				D603D69E3E00097CAAFEBD72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,16 @@
 			path = Spaminataro202208UITests;
 			sourceTree = "<group>";
 		};
+		D603D69E3E00097CAAFEBD72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */,
+				E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */,
+				590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB47541028ADC48500719AE5 /* Build configuration list for PBXNativeTarget "Spaminataro202208" */;
 			buildPhases = (
+				766ED88CBE3206A47AF438BC /* [CP] Check Pods Manifest.lock */,
 				CB4753E828ADC48400719AE5 /* Sources */,
 				CB4753E928ADC48400719AE5 /* Frameworks */,
 				CB4753EA28ADC48400719AE5 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB47541328ADC48500719AE5 /* Build configuration list for PBXNativeTarget "Spaminataro202208Tests" */;
 			buildPhases = (
+				F1E1CB30AE8E9B7F6E90EC10 /* [CP] Check Pods Manifest.lock */,
 				CB4753F828ADC48500719AE5 /* Sources */,
 				CB4753F928ADC48500719AE5 /* Frameworks */,
 				CB4753FA28ADC48500719AE5 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB47541628ADC48500719AE5 /* Build configuration list for PBXNativeTarget "Spaminataro202208UITests" */;
 			buildPhases = (
+				744D3036768FE51FC03D8794 /* [CP] Check Pods Manifest.lock */,
 				CB47540228ADC48500719AE5 /* Sources */,
 				CB47540328ADC48500719AE5 /* Frameworks */,
 				CB47540428ADC48500719AE5 /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		744D3036768FE51FC03D8794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spaminataro202208-Spaminataro202208UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766ED88CBE3206A47AF438BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spaminataro202208-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E1CB30AE8E9B7F6E90EC10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spaminataro202208Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB4753E828ADC48400719AE5 /* Sources */ = {
@@ -411,6 +524,7 @@
 		};
 		CB47541128ADC48500719AE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1ED159EFEC5E632BB7D5CF /* Pods-Spaminataro202208.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +554,7 @@
 		};
 		CB47541228ADC48500719AE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AD425DF12B96D8C3027359 /* Pods-Spaminataro202208.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +584,7 @@
 		};
 		CB47541428ADC48500719AE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9715090D17041386483B8274 /* Pods-Spaminataro202208Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +605,7 @@
 		};
 		CB47541528ADC48500719AE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A8A9AB62FC62694A2CA46C /* Pods-Spaminataro202208Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +626,7 @@
 		};
 		CB47541728ADC48500719AE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48145D2F7E0997B6D86FAC9E /* Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +645,7 @@
 		};
 		CB47541828ADC48500719AE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4C8E0EFF1643E0E2FD8A8C /* Pods-Spaminataro202208-Spaminataro202208UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
