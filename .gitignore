@@ -97,15 +97,23 @@ iOSInjectionProject/
 
 ## Xcode 8 and earlier
 
+## Gcc Patch
+/*.gcno
+
 ### Xcode Patch ###
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
-/*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 ### GoogleService-Info.plist ###
 GoogleService-Info.plist 
+
+# LicensePlist
+Spaminataro202208/com.mono0926.LicensePlist.*
+Spaminataro202208/com.mono0926.LicensePlist
+Spaminataro202208/Settings.bundle/com.mono0926.LicensePlist.*
+Spaminataro202208/Settings.bundle/com.mono0926.LicensePlist
 
 # End of https://www.toptal.com/developers/gitignore/api/xcode,swift,cocoapods
