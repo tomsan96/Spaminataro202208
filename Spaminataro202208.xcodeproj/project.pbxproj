@@ -18,6 +18,7 @@
 		CB47540128ADC48500719AE5 /* Spaminataro202208Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47540028ADC48500719AE5 /* Spaminataro202208Tests.swift */; };
 		CB47540B28ADC48500719AE5 /* Spaminataro202208UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47540A28ADC48500719AE5 /* Spaminataro202208UITests.swift */; };
 		CB47540D28ADC48500719AE5 /* Spaminataro202208UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47540C28ADC48500719AE5 /* Spaminataro202208UITestsLaunchTests.swift */; };
+		CB47541E28AFAD7000719AE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB47541D28AFAD7000719AE5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		CB47540628ADC48500719AE5 /* Spaminataro202208UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spaminataro202208UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB47540A28ADC48500719AE5 /* Spaminataro202208UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaminataro202208UITests.swift; sourceTree = "<group>"; };
 		CB47540C28ADC48500719AE5 /* Spaminataro202208UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaminataro202208UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB47541D28AFAD7000719AE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208_Spaminataro202208UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 		CB4753EE28ADC48400719AE5 /* Spaminataro202208 */ = {
 			isa = PBXGroup;
 			children = (
+				CB47541D28AFAD7000719AE5 /* GoogleService-Info.plist */,
 				CB4753EF28ADC48400719AE5 /* Spaminataro202208App.swift */,
 				CB4753F128ADC48400719AE5 /* ContentView.swift */,
 				CB4753F328ADC48500719AE5 /* Assets.xcassets */,
@@ -183,6 +186,7 @@
 				CB4753EA28ADC48400719AE5 /* Resources */,
 				887A7ED928AE778700AC4251 /* Run Swiftlint */,
 				887A7EDA28AE78CE00AC4251 /* Run LicensePlist */,
+				97F994DEFA02B4C16D219E6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +224,7 @@
 				CB47540228ADC48500719AE5 /* Sources */,
 				CB47540328ADC48500719AE5 /* Frameworks */,
 				CB47540428ADC48500719AE5 /* Resources */,
+				B81E433EF3C807D6B07A8FE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4753F728ADC48500719AE5 /* Preview Assets.xcassets in Resources */,
+				CB47541E28AFAD7000719AE5 /* GoogleService-Info.plist in Resources */,
 				887A7EDC28AE78FD00AC4251 /* Settings.bundle in Resources */,
 				CB4753F428ADC48500719AE5 /* Assets.xcassets in Resources */,
 			);
@@ -381,6 +387,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\n";
+		};
+		97F994DEFA02B4C16D219E6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spaminataro202208/Pods-Spaminataro202208-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81E433EF3C807D6B07A8FE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		F1E1CB30AE8E9B7F6E90EC10 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -586,7 +626,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tomsan96.Spaminataro202208;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.Spaminataro202208;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -617,7 +657,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tomsan96.Spaminataro202208;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.Spaminataro202208;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
