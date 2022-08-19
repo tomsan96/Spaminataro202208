@@ -7,5 +7,5 @@
     - ```brew install mono0926/license-plist/license-plist```
 
 ## 手順
-- ```pod install```
-- ```open open Spaminataro202208.xcworkspace```
+- ```make```
+- ```open Spaminataro202208.xcworkspace```
