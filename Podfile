@@ -6,6 +6,9 @@ install! 'cocoapods',
 target 'Spaminataro202208' do
   pod 'SwiftLint'
   pod 'LicensePlist'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore',  '~> 9.0'
+  pod 'FirebaseFirestoreSwift',  '~> 9.0'
 
   target 'Spaminataro202208Tests' do
     inherit! :search_paths

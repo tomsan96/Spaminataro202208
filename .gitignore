@@ -107,9 +107,6 @@ iOSInjectionProject/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-### GoogleService-Info.plist ###
-GoogleService-Info.plist 
-
 # LicensePlist
 Spaminataro202208/com.mono0926.LicensePlist.*
 Spaminataro202208/com.mono0926.LicensePlist
