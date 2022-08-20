@@ -11,7 +11,6 @@
 		4CE44C154CBC7B53ABC81546 /* Pods_Spaminataro202208Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */; };
 		5CCF6FF23D95F8F3C6B19A46 /* Pods_Spaminataro202208.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */; };
 		887A7EDC28AE78FD00AC4251 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 887A7EDB28AE78FD00AC4251 /* Settings.bundle */; };
-		88B4D15C28B0D6E000497147 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 88B4D15B28B0D6E000497147 /* .gitkeep */; };
 		88B4D16128B0D73E00497147 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4D16028B0D73E00497147 /* SplashView.swift */; };
 		88B4D16328B0D7DA00497147 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4D16228B0D7DA00497147 /* CalendarExtension.swift */; };
 		88B4D16528B0D80100497147 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4D16428B0D80100497147 /* DateExtension.swift */; };
@@ -34,6 +33,8 @@
 		CB47540B28ADC48500719AE5 /* Spaminataro202208UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47540A28ADC48500719AE5 /* Spaminataro202208UITests.swift */; };
 		CB47540D28ADC48500719AE5 /* Spaminataro202208UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47540C28ADC48500719AE5 /* Spaminataro202208UITestsLaunchTests.swift */; };
 		CB47541E28AFAD7000719AE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB47541D28AFAD7000719AE5 /* GoogleService-Info.plist */; };
+		CB5ECC2728B16D04001B6A61 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2628B16D04001B6A61 /* User.swift */; };
+		CB5ECC2928B16D16001B6A61 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2828B16D16001B6A61 /* Seed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,6 @@
 		48145D2F7E0997B6D86FAC9E /* Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887A7EDB28AE78FD00AC4251 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		88B4D15B28B0D6E000497147 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		88B4D16028B0D73E00497147 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		88B4D16228B0D7DA00497147 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
 		88B4D16428B0D80100497147 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
@@ -88,6 +88,8 @@
 		CB47540A28ADC48500719AE5 /* Spaminataro202208UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaminataro202208UITests.swift; sourceTree = "<group>"; };
 		CB47540C28ADC48500719AE5 /* Spaminataro202208UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaminataro202208UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CB47541D28AFAD7000719AE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB5ECC2628B16D04001B6A61 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB5ECC2828B16D16001B6A61 /* Seed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
 		E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208_Spaminataro202208UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,7 +133,8 @@
 		88B4D15A28B0D6C300497147 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				88B4D15B28B0D6E000497147 /* .gitkeep */,
+				CB5ECC2628B16D04001B6A61 /* User.swift */,
+				CB5ECC2828B16D16001B6A61 /* Seed.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -419,7 +422,6 @@
 			files = (
 				CB4753F728ADC48500719AE5 /* Preview Assets.xcassets in Resources */,
 				CB47541E28AFAD7000719AE5 /* GoogleService-Info.plist in Resources */,
-				88B4D15C28B0D6E000497147 /* .gitkeep in Resources */,
 				887A7EDC28AE78FD00AC4251 /* Settings.bundle in Resources */,
 				CB4753F428ADC48500719AE5 /* Assets.xcassets in Resources */,
 			);
@@ -592,12 +594,14 @@
 				88B4D18628B0DC2D00497147 /* HomeView.swift in Sources */,
 				88B4D16528B0D80100497147 /* DateExtension.swift in Sources */,
 				88B4D16328B0D7DA00497147 /* CalendarExtension.swift in Sources */,
+				CB5ECC2728B16D04001B6A61 /* User.swift in Sources */,
 				88B4D17128B0D8F300497147 /* TimePeriod.swift in Sources */,
 				88B4D16E28B0D8DC00497147 /* Const.swift in Sources */,
 				88B4D18428B0DC2400497147 /* RankingView.swift in Sources */,
 				CB4753F028ADC48400719AE5 /* Spaminataro202208App.swift in Sources */,
 				88B4D18228B0DC1700497147 /* SettingView.swift in Sources */,
 				88B4D17428B0D9F600497147 /* LoginView.swift in Sources */,
+				CB5ECC2928B16D16001B6A61 /* Seed.swift in Sources */,
 				88B4D16128B0D73E00497147 /* SplashView.swift in Sources */,
 				88B4D17B28B0DB4B00497147 /* UIColorExtension.swift in Sources */,
 				88B4D17D28B0DB9600497147 /* ColorExtension.swift in Sources */,
