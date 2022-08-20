@@ -35,6 +35,7 @@
 		CB47541E28AFAD7000719AE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB47541D28AFAD7000719AE5 /* GoogleService-Info.plist */; };
 		CB5ECC2728B16D04001B6A61 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2628B16D04001B6A61 /* User.swift */; };
 		CB5ECC2928B16D16001B6A61 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2828B16D16001B6A61 /* Seed.swift */; };
+		CB5ECC2B28B17823001B6A61 /* CultivatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2A28B17823001B6A61 /* CultivatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		CB47541D28AFAD7000719AE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CB5ECC2628B16D04001B6A61 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CB5ECC2828B16D16001B6A61 /* Seed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
+		CB5ECC2A28B17823001B6A61 /* CultivatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivatingView.swift; sourceTree = "<group>"; };
 		E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208_Spaminataro202208UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -203,6 +205,7 @@
 			children = (
 				88B4D18528B0DC2D00497147 /* HomeView.swift */,
 				88B4D18728B0DC3600497147 /* HomeViewModel.swift */,
+				CB5ECC2A28B17823001B6A61 /* CultivatingView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				88B4D18228B0DC1700497147 /* SettingView.swift in Sources */,
 				88B4D17428B0D9F600497147 /* LoginView.swift in Sources */,
 				CB5ECC2928B16D16001B6A61 /* Seed.swift in Sources */,
+				CB5ECC2B28B17823001B6A61 /* CultivatingView.swift in Sources */,
 				88B4D16128B0D73E00497147 /* SplashView.swift in Sources */,
 				88B4D17B28B0DB4B00497147 /* UIColorExtension.swift in Sources */,
 				88B4D17D28B0DB9600497147 /* ColorExtension.swift in Sources */,
