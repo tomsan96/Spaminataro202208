@@ -15,4 +15,12 @@ extension UIColor {
     class var backgroundColor: UIColor {
         UIColor(named: "background") ?? UIColor.clear
     }
+
+    class var basicboxColor: UIColor {
+        UIColor(named: "basicbox") ?? UIColor.clear
+    }
+
+    class var basicbuttonColor: UIColor {
+        UIColor(named: "basicbutton") ?? UIColor.clear
+    }
 }
