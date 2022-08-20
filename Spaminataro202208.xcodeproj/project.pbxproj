@@ -36,6 +36,8 @@
 		CB5ECC2728B16D04001B6A61 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2628B16D04001B6A61 /* User.swift */; };
 		CB5ECC2928B16D16001B6A61 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2828B16D16001B6A61 /* Seed.swift */; };
 		CB5ECC2B28B17823001B6A61 /* CultivatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2A28B17823001B6A61 /* CultivatingView.swift */; };
+		CB5ECC3028B195F5001B6A61 /* LocalStroage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC2F28B195F5001B6A61 /* LocalStroage.swift */; };
+		CB5ECC3228B19F50001B6A61 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ECC3128B19F50001B6A61 /* SplashViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		CB5ECC2628B16D04001B6A61 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CB5ECC2828B16D16001B6A61 /* Seed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
 		CB5ECC2A28B17823001B6A61 /* CultivatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivatingView.swift; sourceTree = "<group>"; };
+		CB5ECC2F28B195F5001B6A61 /* LocalStroage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStroage.swift; sourceTree = "<group>"; };
+		CB5ECC3128B19F50001B6A61 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		E40296538CB309BFD7408A42 /* Pods_Spaminataro202208_Spaminataro202208UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208_Spaminataro202208UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				88B4D16028B0D73E00497147 /* SplashView.swift */,
+				CB5ECC3128B19F50001B6A61 /* SplashViewModel.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 			children = (
 				88B4D16F28B0D8E100497147 /* Enum */,
 				88B4D16D28B0D8DC00497147 /* Const.swift */,
+				CB5ECC2F28B195F5001B6A61 /* LocalStroage.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -593,12 +599,14 @@
 				88B4D16B28B0D88F00497147 /* LocaleExtension.swift in Sources */,
 				88B4D16928B0D85800497147 /* ImageExtension.swift in Sources */,
 				88B4D17828B0DA3800497147 /* TabControlView.swift in Sources */,
+				CB5ECC3228B19F50001B6A61 /* SplashViewModel.swift in Sources */,
 				88B4D18828B0DC3600497147 /* HomeViewModel.swift in Sources */,
 				88B4D18628B0DC2D00497147 /* HomeView.swift in Sources */,
 				88B4D16528B0D80100497147 /* DateExtension.swift in Sources */,
 				88B4D16328B0D7DA00497147 /* CalendarExtension.swift in Sources */,
 				CB5ECC2728B16D04001B6A61 /* User.swift in Sources */,
 				88B4D17128B0D8F300497147 /* TimePeriod.swift in Sources */,
+				CB5ECC3028B195F5001B6A61 /* LocalStroage.swift in Sources */,
 				88B4D16E28B0D8DC00497147 /* Const.swift in Sources */,
 				88B4D18428B0DC2400497147 /* RankingView.swift in Sources */,
 				CB4753F028ADC48400719AE5 /* Spaminataro202208App.swift in Sources */,
