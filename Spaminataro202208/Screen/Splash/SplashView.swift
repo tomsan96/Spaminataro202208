@@ -12,6 +12,8 @@ struct SplashView: View {
     // FIXME: Loginの処理が追加したら初期値をfalseに
     @AppStorage(AppStorageConst.isOnboarding) private var isLogin = true
     @State private var isLoading = true
+    @State private var isFirst = true
+    @ObservedObject private var viewModel = SplashViewModel()
 
     // MARK: - Properties
     private let logoSize = UIScreen.main.bounds.width * 0.9
@@ -24,7 +26,14 @@ struct SplashView: View {
                 Image(ImageConst.logo)
                     .imageModifier()
                     .frame(width: logoSize, height: logoSize)
-                    .onAppear {
+                    .task {
+                        guard let checkUserExist = await viewModel.checkUserExist() else { return }
+                        if checkUserExist {
+                            isFirst = false
+                        } else {
+                            await viewModel.addUser()
+                            isFirst = true
+                        }
                         // TODO: ログインしているか判定する
                         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                             isLoading = false
@@ -32,7 +41,7 @@ struct SplashView: View {
                     }
             } else {
                 if isLogin {
-                    TabControlView()
+                    TabControlView(isFirst: isFirst)
                 } else {
                     LoginView()
                 }

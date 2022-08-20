@@ -6,8 +6,12 @@
 //
 
 import Foundation
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 
 class HomeViewModel: ObservableObject {
+    // MARK: - Properties
+    let database = Firestore.firestore()
 
     // MARK: - Methods
     func setNavigationTitle() -> String {
