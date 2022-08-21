@@ -41,7 +41,7 @@ class CultivationgViewModel: ObservableObject {
                 quantityType: distanceType,
                 quantitySamplePredicate: predicate,
                 options: [.cumulativeSum]) { _, statistics, _ in
-                    print(statistics!.sumQuantity()!)
+//                    print(statistics!.sumQuantity()!)
                     if let quantity = statistics?.sumQuantity() {
                         let stepValue = quantity.doubleValue(for: HKUnit.count())
 

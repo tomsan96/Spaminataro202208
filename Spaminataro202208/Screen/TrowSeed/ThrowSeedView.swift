@@ -18,6 +18,7 @@ struct ThrowSeedView: View {
     @State var lastDragPosition: DragGesture.Value?
     @State var backgroundImage = "throw_background"
     @State var vm = ThrowResultViewModel()
+    let steps: Int
 
     private let timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
     
@@ -43,6 +44,7 @@ struct ThrowSeedView: View {
                 let speed = CGFloat(value.translation.height - self.lastDragPosition!.translation.height) / CGFloat(timeDiff)
                 print(speed)
                 vm.speed = speed
+                vm.steps = steps
             }
     }
     
@@ -50,7 +52,7 @@ struct ThrowSeedView: View {
         if flag {
             VStack {
                 if position.height < 0 {
-                    Image("watermelon_seed")
+                    Image("throw_seed")
                         .resizable()
                         .frame(width: 100, height: 100)
                         .padding()
@@ -72,7 +74,7 @@ struct ThrowSeedView: View {
                             }
                         }
                 } else {
-                    Image("watermelon_seed")
+                    Image("throw_seed")
                         .resizable()
                         .frame(width: 100, height: 100)
                         .position(x: position.width, y: position.height)
@@ -82,15 +84,10 @@ struct ThrowSeedView: View {
             .background(
                 Image(backgroundImage)
                     .resizable()
+                    .edgesIgnoringSafeArea(.all)
             )
         } else {
             ThrowResultView(vm: vm)
         }
-    }
-}
-
-struct ThrowSeedView_Previews: PreviewProvider {
-    static var previews: some View {
-        ThrowSeedView()
     }
 }

@@ -9,32 +9,37 @@ import SwiftUI
 
 struct ThrowResultView: View {
     @ObservedObject var vm: ThrowResultViewModel
+    @Environment(\.dismiss) private var dismiss
+    let bounds = UIScreen.main.bounds
+    @State var flightDistance = 0
     
     var body: some View {
-        ZStack {
-            VStack {
-                Text("結果発表!!!")
-                    .font(.system(size: 24))
-                    .padding(.bottom, 24)
-                Text("飛行距離: \(Int(-vm.speed) * 100)m")
-                    .font(.system(size: 20))
-                    .padding(.bottom, 10)
-                Text("現在の歩数: \(100000)")
-                    .font(.system(size: 20))
-                    .padding(.bottom, 10)
-                Button {
-                    print("asdfasdfas")
-                } label: {
-                    Text("トップ画面の戻る")
-                        .font(.system(size: 16, weight: .bold))
-                        .foregroundColor(.white)
-                        .background(Color("sub"))
-                        .padding(.horizontal)
-                }
-                .padding()
+        VStack {
+            // FIXME: デザイン修正
+            Text("結果発表!!!")
+                .font(.system(size: 24))
+                .padding(.bottom, 24)
+            Text("飛行距離: \(flightDistance)m")
+            Text("現在の歩数: \(100000)")
+            Button(action: {
+                dismiss()
+            }) {
+                Text("トップ画面の戻る")
+                    .foregroundColor(.white)
             }
+            .frame(width: 240, height: 40, alignment: .center)
+            .background(Color.basicbuttonColor.cornerRadius(16))
+        } //: VStack
+        .frame(width: bounds.width - (48 * 2),
+               height: 224,
+               alignment: .center
+        )
+        .background(Color.basicboxColor.cornerRadius(8))
+        .onAppear {
+            let a = ((Double(vm.steps) + 1) * 0.001) * (Double(-vm.speed) * 0.001) * 1
+            print("vm.steps: ",vm.steps)
+            print("vm.speed: ",vm.speed)
+            self.flightDistance = Int(a)
         }
-        .padding()
-        .background(Color.basicboxColor)
     }
 }

@@ -10,4 +10,5 @@ import UIKit
 
 class ThrowResultViewModel: ObservableObject {
     @Published var speed: CGFloat = 0.0
+    @Published var steps: Int = 0
 }

@@ -10,6 +10,7 @@ import SwiftUI
 struct CultivatingView: View {
     // MARK: - Property Wrappers
     @ObservedObject private var viewModel = CultivationgViewModel()
+    @State private var isShowThrowSeedView = false
     // MARK: - Proverties
     let bounds = UIScreen.main.bounds
 
@@ -21,7 +22,7 @@ struct CultivatingView: View {
             Text("理想の歩数: 8000")
             Text("現在の歩数: \(viewModel.totalSteps)")
             Button(action: {
-
+                isShowThrowSeedView = true
             }) {
                 Text("収穫する")
                     .foregroundColor(.white)
@@ -36,6 +37,9 @@ struct CultivatingView: View {
         .background(Color.basicboxColor.cornerRadius(8))
         .task {
             viewModel.getTotalSteps()
+        }
+        .fullScreenCover(isPresented: $isShowThrowSeedView) {
+            ThrowSeedView(steps: viewModel.totalSteps)
         }
     }
 }
