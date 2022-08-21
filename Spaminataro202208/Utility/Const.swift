@@ -7,7 +7,11 @@
 
 import Foundation
 
-enum URLConst {}
+enum URLConst {
+    static let sampleURL = "https://www.apple.com/jp/"
+    static let termsOfUsePageURL = sampleURL
+    static let privacyPoricyPageURL = sampleURL
+}
 
 enum AppStorageConst {
     static let isLoading = "isLoading"
@@ -18,6 +22,11 @@ enum TextConst {
     static let goodMorning = "おはようございます"
     static let hello = "こんにちは"
     static let goodEvening = "こんばんは"
+    static let setting = "設定"
+    static let aboutApp = "アプリについて"
+    static let termsOfUse = "利用規約"
+    static let privacyPolicy = "プライバシーポリシー"
+    static let license = "ライセンス"
 }
 
 enum ImageConst {
