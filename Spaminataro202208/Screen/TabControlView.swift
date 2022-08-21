@@ -23,12 +23,13 @@ struct TabControlView: View {
             HomeView(isFirst: isFirst).tabItem {
                 Image(ImageConst.Tab.seed)
             }.tag(0)
-            RankingView().tabItem {
-                Image(ImageConst.Tab.ranking)
-            }.tag(1)
+//            RankingView().tabItem {
+//                Image(ImageConst.Tab.ranking)
+//            }.tag(1)
             SettingView().tabItem {
                 Image(ImageConst.Tab.setting)
-            }.tag(2)
+//            }.tag(2)
+            }.tag(1)
         } //: TabView
         .accentColor(.mainColor)
         .onAppear {
