@@ -14,6 +14,8 @@
 		4CE44C154CBC7B53ABC81546 /* Pods_Spaminataro202208Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */; };
 		5CCF6FF23D95F8F3C6B19A46 /* Pods_Spaminataro202208.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46140637FD4365EEAFC716C /* Pods_Spaminataro202208.framework */; };
 		887A7EDC28AE78FD00AC4251 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 887A7EDB28AE78FD00AC4251 /* Settings.bundle */; };
+		8882DEAD28B1C97600DCCF82 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882DEAA28B1C97600DCCF82 /* SafariView.swift */; };
+		8882DEAE28B1C97600DCCF82 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882DEAC28B1C97600DCCF82 /* WebView.swift */; };
 		88B4D16128B0D73E00497147 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4D16028B0D73E00497147 /* SplashView.swift */; };
 		88B4D16328B0D7DA00497147 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4D16228B0D7DA00497147 /* CalendarExtension.swift */; };
 		88B4D16528B0D80100497147 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4D16428B0D80100497147 /* DateExtension.swift */; };
@@ -71,6 +73,8 @@
 		48145D2F7E0997B6D86FAC9E /* Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; path = "Target Support Files/Pods-Spaminataro202208-Spaminataro202208UITests/Pods-Spaminataro202208-Spaminataro202208UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		590D615384F54722F6FF9AB2 /* Pods_Spaminataro202208Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spaminataro202208Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887A7EDB28AE78FD00AC4251 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8882DEAA28B1C97600DCCF82 /* SafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		8882DEAC28B1C97600DCCF82 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		88B4D16028B0D73E00497147 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		88B4D16228B0D7DA00497147 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
 		88B4D16428B0D80100497147 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		236BE6D128B1C24C00ABD9A5 /* TrowSeed */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +160,23 @@
 				236BE6D728B1C43F00ABD9A5 /* ThrowResultViewModel.swift */,
 			);
 			path = ThrowResultView;
+=======
+		8882DEA928B1C97600DCCF82 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8882DEAA28B1C97600DCCF82 /* SafariView.swift */,
+				8882DEAB28B1C97600DCCF82 /* UIViewRepresentable */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8882DEAB28B1C97600DCCF82 /* UIViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				8882DEAC28B1C97600DCCF82 /* WebView.swift */,
+			);
+			path = UIViewRepresentable;
+>>>>>>> develop
 			sourceTree = "<group>";
 		};
 		88B4D15928B0D6B200497147 /* Application */ = {
@@ -177,8 +199,12 @@
 		88B4D15D28B0D6E600497147 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				236BE6D128B1C24C00ABD9A5 /* TrowSeed */,
 				236BE6D428B1C3F500ABD9A5 /* ThrowResultView */,
+=======
+				8882DEA928B1C97600DCCF82 /* Common */,
+>>>>>>> develop
 				88B4D18028B0DC0900497147 /* Setting */,
 				88B4D17F28B0DC0200497147 /* Ranking */,
 				88B4D17E28B0DBFC00497147 /* Home */,
@@ -641,10 +667,12 @@
 				88B4D16528B0D80100497147 /* DateExtension.swift in Sources */,
 				88B4D16328B0D7DA00497147 /* CalendarExtension.swift in Sources */,
 				CB5ECC2728B16D04001B6A61 /* User.swift in Sources */,
+				8882DEAE28B1C97600DCCF82 /* WebView.swift in Sources */,
 				88B4D17128B0D8F300497147 /* TimePeriod.swift in Sources */,
 				CB5ECC3028B195F5001B6A61 /* LocalStroage.swift in Sources */,
 				88B4D16E28B0D8DC00497147 /* Const.swift in Sources */,
 				88B4D18428B0DC2400497147 /* RankingView.swift in Sources */,
+				8882DEAD28B1C97600DCCF82 /* SafariView.swift in Sources */,
 				CB4753F028ADC48400719AE5 /* Spaminataro202208App.swift in Sources */,
 				88B4D18228B0DC1700497147 /* SettingView.swift in Sources */,
 				88B4D17428B0D9F600497147 /* LoginView.swift in Sources */,
